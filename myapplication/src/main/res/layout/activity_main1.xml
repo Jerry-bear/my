@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main1"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.myapplication.MainActivity1"
+    android:orientation="vertical"
+    android:stretchColumns="0,3"
+    android:background="@mipmap/setin">
+    <TableRow
+        android:paddingTop="200dp">
+        <TextView />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账  号："
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/word"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="邮箱或手机号"/>
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密  码："
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="输入6-16位数字或字母"/>
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+        <TextView />
+        <Button
+            android:id="@+id/buttonsetin"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="登  录"
+            android:background="#FF8247"/>
+        <TextView />
+    </TableRow>
+
+
+</TableLayout>
